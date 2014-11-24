@@ -82,7 +82,7 @@
 - (void)gameOver {
     if (!_gameOver) {
         _gameOver = TRUE;
-        _restartButton.hidden = FALSE;
+        _restartButton.hidden = true;
         
         character.physicsBody.velocity = ccp(0.0f, character.physicsBody.velocity.y);
         character.rotation = 90.f;
