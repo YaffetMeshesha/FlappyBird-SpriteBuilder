@@ -26,7 +26,7 @@
     
     NSMutableArray *_obstacles;
     
-    CCButton *_restartButton;
+    UIButton *_restartButton;
     
     BOOL _gameOver;
     CCLabelTTF *_scoreLabel;
